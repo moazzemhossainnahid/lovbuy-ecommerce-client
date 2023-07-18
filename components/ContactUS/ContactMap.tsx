@@ -17,7 +17,7 @@ const ContactMap = () => {
             </div>
              
             <div className='z-40 mt-[-100px] overflow-hidden p-5'>
-                <iframe title='map' className='w-full lg:w-[95vw] h-[400px] mx-auto rounded-md' id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3150461.178380638!2d-105.78018600000001!3d39.545575!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874014749b1856b7%3A0xc75483314990a7ff!2sColorado!5e0!3m2!1sen!2sus!4v1689575230315!5m2!1sen!2sus" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe title='map' className='w-full lg:w-[95vw] h-[400px] mx-auto rounded-md' id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3150461.178380638!2d-105.78018600000001!3d39.545575!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874014749b1856b7%3A0xc75483314990a7ff!2sColorado!5e0!3m2!1sen!2sus!4v1689575230315!5m2!1sen!2sus"></iframe>
             </div>
         </div>
     );
