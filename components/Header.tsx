@@ -30,8 +30,8 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 h-20 w-full bg-gray-300 shadow">
-      <nav className="sticky top-0 border-gray-200 bg-white dark:bg-gray-900">
-        <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
+      <nav className="sticky top-0 w-full border-gray-200 bg-white dark:bg-gray-900">
+        <div className="mx-auto flex w-full flex-wrap items-center justify-evenly p-4">
           <Link href="/" className="flex items-center">
             <img
               src="https://res.cloudinary.com/dsigyjfjq/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1689492016/lovbuy_ejfjyb.jpg?_s=public-apps"

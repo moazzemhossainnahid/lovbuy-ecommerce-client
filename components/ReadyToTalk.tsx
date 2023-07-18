@@ -2,7 +2,7 @@ import React from 'react';
 
 const ReadyToTalk = () => {
     return (
-        <div className='container w-full mx-auto h-full pt-5 md:pt-10 py-10'>
+        <div className='w-full mx-auto p-5 h-full pt-5 md:pt-10 py-10'>
 
                 <h3 className="text-3xl md:text-4xl text-gray-700 text-center font-bold pb-10">Ready To Talk ?</h3>
 

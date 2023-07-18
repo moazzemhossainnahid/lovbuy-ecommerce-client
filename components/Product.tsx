@@ -34,7 +34,7 @@ const Product = async () => {
   return (
     <div className="w-full mx-auto p-5">
       <h1 className="text-3xl font-bold">Product Section</h1>
-      <div className="grid gap-4 py-16 lg:grid-cols-4">
+      <div className="grid gap-10 py-16 lg:grid-cols-4 mx-auto justify-center">
         {products.map((p: ProductType) => {
           return <ProductCard data={p} />
         })}

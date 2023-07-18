@@ -37,7 +37,7 @@ const ProductCard = ({ data }: DataProps) => {
     quantity,
   } = data
   return (
-    <div className="max-w-sm relative pb-16 rounded-lg border border-gray-200 bg-white p-6  shadow dark:border-gray-700 dark:bg-gray-800">
+    <div className="w-full mx-auto relative pb-16 rounded-lg border border-gray-200 bg-white p-6  shadow dark:border-gray-700 dark:bg-gray-800">
       <ProductDetailsButton id={_id}>
         <div className="mb-2  grid justify-center">
           <Image
