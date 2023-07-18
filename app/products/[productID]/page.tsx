@@ -2,6 +2,7 @@ import React from 'react'
 import DetailSection from '@/components/product/detailPage/DetailSection'
 import ImageSection from '@/components/product/detailPage/ImageSection'
 import ProductDescription from '@/components/product/detailPage/ProductDescription'
+import { useSession } from 'next-auth/react'
 
 const getProduct = async (id: string) => {
   const res = await fetch(
@@ -38,8 +39,16 @@ const ProductDetail = async ({ params }: Props) => {
     quantity,
   } = data
 
+
+  // const {data:session, status} = useSession({
+  //   required:true
+  // })
+  
+  // if(status === "loading"){
+  //   return <></>
+  // }
   return (
-    <div className="container mx-auto max-w-6xl px-8 py-16 md:px-0">
+    <div className="mx-auto px-8 py-16 md:px-0">
       <div className=" justify-between gap-32 md:flex">
         {/* left side */}
         <div className="md:w-1/2">

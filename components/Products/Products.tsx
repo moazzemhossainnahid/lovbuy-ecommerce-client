@@ -149,7 +149,7 @@ const ProductsComp = () => {
     };
 
     return (
-        <div className="w-full">
+        <div className="w-full p-5">
             <div className="py-3 relative">
                 <h3 className="text-4xl text-gray-700 font-bold text-center py-4">
                     User Interface Products
@@ -165,9 +165,9 @@ const ProductsComp = () => {
                     </select>
                 </div>
             </div>
-            <div className="">
+            <div className="w-full">
                 <div className="bg-base-100">
-                    <div className="container mx-auto pb-10">
+                    <div className="w-full mx-auto pb-10">
                         <div className="grid grid-cols-1 relative lg:gap-6 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4">
                             <div className="col-span-1">
                                 <div className="sticky top-20">
@@ -199,7 +199,7 @@ const ProductsComp = () => {
                                 </div>
                                 {
                                     viewBy ?
-                                        <div className="w-full pt-7 grid grid-cols-1 gap-6 justify-center mx-auto">
+                                        <div className="w-full pt-7 p-5 grid grid-cols-1 gap-6 justify-center mx-auto">
                                             {loadProducts?.length ?
                                                 loadProducts?.map((data:any, index:number) => (
                                                     <ProductsList product={data} key={index} />
@@ -209,7 +209,7 @@ const ProductsComp = () => {
                                                 </div>
                                             }
                                         </div> :
-                                        <div className="w-full pt-7 grid grid-cols-1 gap-6 sm:grid-cols-1 justify-center md:grid-cols-2 lg:grid-cols-3 mx-auto">
+                                        <div className="w-full pt-7 p-5 grid grid-cols-1 gap-6 sm:grid-cols-1 justify-center md:grid-cols-2 lg:grid-cols-3 mx-auto">
                                             {loadProducts?.length ?
                                                 loadProducts?.map((data:any, index:number) => (
                                                     <ProductsGrid product={data} key={index} />
