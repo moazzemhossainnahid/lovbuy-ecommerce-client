@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <div className='w-full mx-auto p-5'>
-      <div className='grid lg:grid-cols-2 py-6 items-center gap-12'>
+      <div className='flex flex-col md:flex-row justify-between py-6 items-center gap-12'>
         <div className='w-full md:w-3/5'>
           <h1 className='text-5xl mb-6 font-bold'>
             Welcome Every one to My Company
@@ -20,7 +20,7 @@ const Hero = () => {
           </button>
         </div>
         <div className='w-full md:w-2/5 mx-auto'>
-          <Image src='https://i.ibb.co/W5gLqVL/K9-WYdj2-CB.png' width={500} height={200} alt='Banner Image' />
+          <Image src='https://i.ibb.co/W5gLqVL/K9-WYdj2-CB.png' width={500} height={500} alt='Banner Image' />
         </div>
       </div>
     </div>
