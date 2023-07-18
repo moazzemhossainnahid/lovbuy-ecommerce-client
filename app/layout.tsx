@@ -25,7 +25,9 @@ export default function RootLayout({
         <body className={`${inter.className} overflow-x-hidden`}>
           <Header />
           <Toaster position="top-center" reverseOrder={false} />
+          <div className="px-7">
           <NextAuthSessionProvider>{children}</NextAuthSessionProvider>
+          </div>
           <Footer />
           <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
           <script src="https://unpkg.com/react-query/dist/react-query.production.min.js"></script>
