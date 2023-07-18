@@ -25,7 +25,7 @@ export default function RootLayout({
         <body className={`${inter.className} overflow-x-hidden`}>
           <Header />
           <Toaster position="top-center" reverseOrder={false} />
-          <div className="px-7">
+          <div className="w-full px-7">
           <NextAuthSessionProvider>{children}</NextAuthSessionProvider>
           </div>
           <Footer />

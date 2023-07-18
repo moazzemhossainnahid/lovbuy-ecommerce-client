@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='w-full mx-auto p-5'>
       <div className='grid lg:grid-cols-2 py-6 items-center gap-12'>
-        <div className=''>
+        <div className='w-full md:w-3/5'>
           <h1 className='text-5xl mb-6 font-bold'>
             Welcome Every one to My Company
           </h1>
@@ -19,7 +19,7 @@ const Hero = () => {
             Shop Now
           </button>
         </div>
-        <div className=''>
+        <div className='w-full md:w-2/5 mx-auto'>
           <Image src='https://i.ibb.co/W5gLqVL/K9-WYdj2-CB.png' width={500} height={200} alt='Banner Image' />
         </div>
       </div>

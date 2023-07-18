@@ -7,7 +7,7 @@ import TrustedPartners from '@/components/TrustedPartners'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col justify-between ">
+    <main className="w-full flex min-h-screen flex-col justify-between ">
       <Hero />
       <Product />
       <Team />

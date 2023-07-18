@@ -32,7 +32,7 @@ type ProductType = {
 const Product = async () => {
   const products = await getProducts()
   return (
-    <div className="container mx-auto">
+    <div className="w-full mx-auto p-5">
       <h1 className="text-3xl font-bold">Product Section</h1>
       <div className="grid gap-4 py-16 lg:grid-cols-4">
         {products.map((p: ProductType) => {
